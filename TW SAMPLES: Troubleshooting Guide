@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Camera Troubleshooting Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Conference Camera Troubleshooting Guide</h1>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>The audience of the following article are end-users or support teams who are familiar with personal devices, and conferencing systems. This is a general troubleshooting guide and it doesn’t contain any specific models, or conference system troubleshooting steps.</p>
+        </section>
+        
+        <section id="issue">
+            <h2>Issue: Conference Camera Not Recognized by Video Conferencing Software in a Desktop Computer or Laptop</h2>
+            <h3>Symptom:</h3>
+            <p>Your camera appears to be functioning correctly otherwise, but it's not detected or recognized by your video conferencing software (Zoom, Microsoft Teams, Google Meet).</p>
+            <h3>Possible Causes:</h3>
+            <ol>
+                <li>
+                    <h4>Camera Settings:</h4>
+                    <ul>
+                        <li>Camera is disabled: Check the camera settings within your video conferencing software to make sure the camera is enabled and selected as the default video input device.</li>
+                        <li>Privacy settings: Ensure your operating system's privacy settings allow the video conferencing software to access the camera.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Software Conflicts:</h4>
+                    <ul>
+                        <li>Other applications using the camera: Close any other applications that might be using the camera, such as different video conferencing software, webcam utilities, or even photo editing software.</li>
+                        <li>Background processes: Check the task manager in your computer or activity monitor for any background processes that could be interfering with the camera.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Driver Issues:</h4>
+                    <ul>
+                        <li>Outdated drivers: Ensure you have the latest drivers installed for your conference camera. Visit the manufacturer's website to download and install the most recent drivers for your specific camera model and operating system and do the same with port or bluetooth drivers if applicable.</li>
+                        <li>Corrupted drivers: If updating the drivers doesn't solve the problem, uninstall the existing drivers and then reinstall them again.</li>
+                        <li>Conflicting drivers: If you have multiple cameras or other devices connected, there could be driver conflicts. Try disconnecting other devices and see if the conference camera is recognized.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>Hardware Issues:</h4>
+                    <ul>
+                        <li>Connection problems: Ensure the camera is properly connected to your computer. If you’re using a USB connection, try a different USB port or cable.</li>
+                        <li>Faulty camera: In rare cases, the camera itself might be malfunctioning. If you have access to another computer, try connecting the camera to it to see if it works.</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        
+        <section id="steps">
+            <h2>Troubleshooting Steps:</h2>
+            <ol>
+                <li>If you’re using Google Meet, Zoom or Microsoft Teams in a browser: Try using a different browser, or install the pertinent application for the conferencing software in your device.</li>
+                <li>Check Camera Functionality: Open your operating system's built-in camera application to verify if the camera works outside of your video conferencing.</li>
+                <li>Restart Everything: Restart your computer, the camera (if possible), and the video conferencing software.</li>
+                <li>Update Drivers: Update the camera drivers as mentioned above.</li>
+                <li>Check Software Settings: Verify the camera settings within your video conferencing software and operating system privacy settings.</li>
+                <li>Disable Conflicting Software: Close other applications that might be using the camera.</li>
+                <li>Reconnect the Camera: Ensure the camera is securely connected. Try different USB ports or cables if applicable.</li>
+                <li>If you connect your camera using bluetooth: Deactivate and reactivate the bluetooth function in your computer.</li>
+                <li>Contact Support: If the issue persists, reach out to the camera manufacturer's support for further assistance or review the pertinent conferencing software documentation to check device compatibility, requirements and troubleshooting guidelines.</li>
+            </ol>
+            <p><strong>Important Note:</strong> If you are using a company-managed computer, you may need to contact your IT department for assistance with driver updates or software configuration.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
