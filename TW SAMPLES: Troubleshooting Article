@@ -1,0 +1,38 @@
+# Troubleshooting Camera Mode Issues in Zoom Rooms for Windows (Rally Bar and Rally Bar Mini)
+
+## Products Affected:
+- Rally Bar
+- Rally Bar Mini
+
+## Issue:
+Zoom Rooms for Windows may not display the "Speaker Focus" camera mode as an option for Rally Bar or Rally Bar Mini. If Logitech Sight is connected, it might not activate without applying a workaround.
+
+## Conditions:
+This issue specifically occurs when using the Rally Bar or Rally Bar Mini with Zoom Rooms for Windows.
+
+## Workaround:
+While this workaround should restore the Speaker Focus functionality and enable Logitech Sight, it temporarily removes other automatic camera modes.
+
+### Disable Automatic Camera Modes:
+1. Log in to the Zoom Admin Portal.
+2. Navigate to Admin > Zoom Rooms > Your Room.
+3. Disable all camera modes except for Manual.
+
+### Enable Speaker View:
+You have two options to enable Speaker View:
+- Use the CollabOS Settings menu.
+- Access the settings on Logitech Sync.
+
+## Resolution Progress:
+This issue is currently being actively worked on by Zoom and Logitech. Updates and a permanent solution are expected in the near future.
+
+## Additional Tips:
+- **Check for Updates:** Ensure that you have the latest firmware for your Rally Bar or Rally Bar Mini, as well as the latest version of Zoom Rooms.
+- **Verify Focus Mode is Enabled at the Account Level:** Refer to [Zoom documentation](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063004) for enabling Focus mode for meetings.
+- **Outdated Firmware:** Ensure that your Rally Bar or Rally Bar Mini has the latest firmware installed. Outdated firmware can sometimes cause compatibility issues with Zoom Rooms for Windows.
+- **Conflicting Software:** Close any other applications that might be using the camera, such as video conferencing software or webcam software.
+- **Update Port Drivers:** Update drivers manually in Windows.
+
+If you continue to experience issues, reach out to Logitech Business Support or Zoom Support for further assistance.
+
+We apologize for any inconvenience caused by this limitation.
